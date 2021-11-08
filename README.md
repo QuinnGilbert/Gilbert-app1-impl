@@ -32,4 +32,5 @@ To save your currently viewed list, press the "Save" button, then select a locat
 ##### Load a List
 To load your currently viewed list, press the "Load" button, then select a .todo file that you saved previously.
 
-
+##### Sorting Items
+You can sort the Items by Description or Due Date by simply pressing the row name at the top.
