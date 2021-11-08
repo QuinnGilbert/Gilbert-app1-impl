@@ -1,8 +1,9 @@
 /*
  *  UCF COP3330 Fall 2021 Application Assignment 1 Solution
- *  Copyright 2021 first_name last_name
+ *  Copyright 2021 Quinn Gilbert
  */
 package baseline;
+
 import javafx.application.Application;
 import javafx.scene.*;
 import javafx.fxml.*;

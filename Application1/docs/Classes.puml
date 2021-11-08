@@ -1,0 +1,48 @@
+@startuml
+
+class Item{
+    String description
+    String dueDate
+    CheckBox checked
+
+    String getDescription()
+    void setDescription()
+
+    String getDueDate()
+    void setDueDate()
+
+    CheckBox getCheckBox()
+    void setCheckBox()
+}
+
+class TodoListApplication{
+    void start()
+    void main()
+}
+
+class viewListController{
+    Button addButton
+    Button clearButton
+    Button hideCompleteButton
+    Button hideIncompleteButton
+    TextField addDescription
+    DatePicker addDate
+
+    TableView<Item> table
+    ObservableList<Item> data
+
+    clearAll()
+    save()
+    load()
+
+    showAll()
+    showComplete()
+    showIncomplete()
+
+    remove()
+    addItem()
+
+    initialize()
+}
+
+@enduml
